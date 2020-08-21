@@ -25,8 +25,8 @@ The version 3 of the dataset which we used can be downloaded from [here](https:/
 
 ### Test Accuracy (%)
 |   **Architecture**  | **Test Accuracy** |
-|:---------------:|---------------|
-| EfficientNet-B1 |       **95**      |
+|:---------------:|:---------------:|
+| *EfficientNet-B1* |       **95**      |
 |      VGG-19     |      83.0     |
 |    Resnet-50    |      90.6     |
 |     COVIDNet    |      93.3     |
@@ -35,7 +35,7 @@ The version 3 of the dataset which we used can be downloaded from [here](https:/
 ### Sensitivity (%)
 | **Architecture** | **Normal** | **Non-COVID-19** | **COVID-19** |
 |:----------------:|:----------:|:----------------:|:------------:|
-|  EfficientNet-B1 |    95.5    |     **94.6**     |    **100**   |
+|  *EfficientNet-B1* |    95.5    |     **94.6**     |    **100**   |
 |      VGG-19      |  **98.0**  |       90.0       |     58.7     |
 |     Resnet-50    |    97.0    |       92.0       |     83.0     |
 |  COVIDNet-CXR4-A |    94.0    |       94.0       |     95.0     |
@@ -46,9 +46,19 @@ The version 3 of the dataset which we used can be downloaded from [here](https:/
 ### Positive Predictive Value (%)
 | **Architecture** | **Normal** | **Non-COVID-19** | **COVID-19** |
 |:----------------:|:----------:|:----------------:|:------------:|
-|  EfficientNet-B1 |  **93.5**  |     **96.9**     |     94.3     |
+|  *EfficientNet-B1* |  **93.5**  |     **96.9**     |     94.3     |
 |      VGG-19      |    83.1    |       75.0       |     98.4     |
 |     Resnet-50    |    88.2    |       86.8       |     98.8     |
 |  COVIDNet-CXR4-A |    91.3    |       93.1       |   **99.0**   |
 |  COVIDNet-CXR4-B |    88.9    |       93.9       |     98.9     |
 |  COVIDNet-CXR4-C |    90.5    |       93.7       |     96.0     |
+
+
+## Requirements
+- `keras 2.3.1`
+- `tensorflow 2.1.0`
+- `Numpy`
+- `Scikit-Learn`
+- `Matplotlib`
+- `Python 3.7`
+
